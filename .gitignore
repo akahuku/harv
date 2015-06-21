@@ -1,0 +1,8 @@
+*.sw?
+*~
+Thumbs.db
+desktop.ini
+Session.vim
+
+app.mk
+.embryo/

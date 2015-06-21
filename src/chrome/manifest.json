@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "harv",
+  "short_name": "harv",
+  "version": "0.0.1",
+  "description": "scroll by half hight of a page.",
+  "default_locale": "en_US",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "frontend/harv.js"
+      ],
+      "css": [
+        "frontend/harv.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "homepage_url": "http://appsweets.net/harv"
+}

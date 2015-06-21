@@ -1,0 +1,21 @@
+/*
+ * harv.css
+ */
+
+.harv-overlay {
+	position:fixed;
+	left:0px;
+	right:0px;
+	transition-property:opacity;
+	transition-duration:1s;
+	transition-timing-function:ease;
+	transition-delay:0s;
+	opacity:1.0;
+	outline:3px solid #c0c0c0;
+	background-color:#fff;
+	z-index:65535;
+}
+
+.harv-opacity-zero {
+	opacity:0;
+}
